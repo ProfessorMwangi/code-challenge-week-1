@@ -1,0 +1,31 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Net Salary Calculator</title>
+		<link rel="stylesheet" href="./salary calculator.css" />
+	</head>
+	<body>
+		<h1>Net Salary Calculator</h1>
+		<div class="main">
+			<input
+				type="number"
+				id="basicSalaryInput"
+				placeholder="Enter basic salary" />
+
+			<input type="number" id="benefitsInput" placeholder="Enter benefits" />
+
+			<button class="button" onclick="calculateNetSalaryFromInput()">
+				Calculate Net Salary
+			</button>
+		</div>
+		<div class="output">
+			<h2>Output</h2>
+			<p id="salaryResult"></p>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
